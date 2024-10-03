@@ -1,0 +1,46 @@
+/* General reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    text-align: inline;
+}
+
+h1 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+img {
+    border-radius: 15px;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+strong {
+    color: #FF5722;
+}
+
+/* Add some hover effects */
+img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+p:hover {
+    color: #555;
+    transition: color 0.3s ease-in-out;
+}
+
