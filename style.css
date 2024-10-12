@@ -1,22 +1,25 @@
-/* General reset for margin and padding */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
-    padding: 20px;
     text-align: inline;
 }
 
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
 h1 {
-    color: #4CAF50;
-    margin-bottom: 20px;
+    color:cornflowerblue;
+    margin-bottom: 10px;
+    font-size: 2.5em;
+}
+
+.container {
+    max-width: 1140px;
 }
 
 img {
@@ -30,7 +33,7 @@ p {
 }
 
 strong {
-    color: #FF5722;
+    color:blueviolet;
 }
 
 /* Add some hover effects */
